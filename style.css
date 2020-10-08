@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  background: #edf2f4;
+  color: #2b2d42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffba08;
+  font-size: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00bfff;
+  font-size: 2rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ef233c;
+  min-height: 8vh;
+}
