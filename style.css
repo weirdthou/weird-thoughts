@@ -1,40 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
-  background: #edf2f4;
-  color: #2b2d42;
+  background: #03071e;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ffba08;
-  font-size: 2rem;
+header {
+  background: #faa307;
 }
 
-nav a {
+header div {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  color: #03071e;
+}
+
+a {
   text-decoration: none;
-  color: #00bfff;
-  font-size: 2rem;
+  color: #023047;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .container {
   width: 90%;
   margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
 }
 
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: #ef233c;
-  min-height: 8vh;
+.post {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #ffba08;
+  line-height: 2rem;
 }

@@ -11,7 +11,7 @@ async function fetchPost() {
   // Putting the fetched data in DOM
   for (const child of data.data.children) {
     content.innerHTML += `
-      <div class"post">
+      <div class="post">
         <h3>${child.data.title}</h3>
       </div>
     `;
